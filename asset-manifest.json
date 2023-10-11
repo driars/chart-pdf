@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/chart-pdf/static/css/main.759e9915.css",
-    "main.js": "/chart-pdf/static/js/main.0211a794.js",
+    "main.js": "/chart-pdf/static/js/main.7d1d6e2b.js",
     "static/js/787.8b7e409d.chunk.js": "/chart-pdf/static/js/787.8b7e409d.chunk.js",
     "static/media/Poppins-Bold.ttf": "/chart-pdf/static/media/Poppins-Bold.266c2af2fa67dafa3c34.ttf",
     "static/media/Poppins-Regular.ttf": "/chart-pdf/static/media/Poppins-Regular.4603832ffdb676d05a8f.ttf",
-    "static/media/print.svg": "/chart-pdf/static/media/print.5c0e180f783e3bb6e885cd2d8db840fa.svg",
     "index.html": "/chart-pdf/index.html",
     "main.759e9915.css.map": "/chart-pdf/static/css/main.759e9915.css.map",
-    "main.0211a794.js.map": "/chart-pdf/static/js/main.0211a794.js.map",
+    "main.7d1d6e2b.js.map": "/chart-pdf/static/js/main.7d1d6e2b.js.map",
     "787.8b7e409d.chunk.js.map": "/chart-pdf/static/js/787.8b7e409d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.759e9915.css",
-    "static/js/main.0211a794.js"
+    "static/js/main.7d1d6e2b.js"
   ]
 }
