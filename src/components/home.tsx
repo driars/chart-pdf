@@ -2,7 +2,6 @@ import React from "react";
 import { PDFDownloadLink, PDFViewer } from "@react-pdf/renderer";
 import Document from "pdf-components/document";
 import "./home.css";
-import PrintSVG from "assets/icons/print.svg";
 import { useArrests } from "hooks/useArrests";
 import ErrorScreen from "./error";
 import LoadingScreen from "./loading";
@@ -33,7 +32,7 @@ export const Home = () => {
               "Loading document..."
             ) : (
               <div className="print-button">
-                <img src={PrintSVG} alt="Print SVG"></img>
+                <img src="icons/printer.png" alt="Print SVG" width={24} height={24}></img>
                 <span>Print</span>
               </div>
             )
