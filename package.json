@@ -2,6 +2,7 @@
   "name": "chart-pdf",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://driars.github.io/chart-pdf",
   "dependencies": {
     "@react-pdf/renderer": "^3.1.13",
     "@tanstack/react-query": "^4.36.1",
@@ -12,6 +13,7 @@
     "@types/node": "^16.18.58",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf-charts": "^0.2.1",
@@ -21,8 +23,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
