@@ -1,12 +1,13 @@
 import React from "react";
 import { View, Text } from "@react-pdf/renderer";
+import ReactPDFChart from "react-pdf-charts";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts";
+import type { Arrest } from "types/arrest";
 
 import styles from "./styles";
 import { colors } from "./colors";
-import ReactPDFChart from "react-pdf-charts";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts";
 
-function CrimeChart() {
+function CrimeChart({ data } : { data: Arrest[] }) {
   return (
     <View style={{ marginTop: 8 }}>
       <View
@@ -47,7 +48,7 @@ function CrimeChart() {
           }}
         >
           <ReactPDFChart>
-            <LineChart height={150} width={500}>
+            <LineChart data={data} height={150} width={500}>
               <XAxis
                 tickLine={false}
                 dataKey="year"
